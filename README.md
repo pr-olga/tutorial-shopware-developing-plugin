@@ -1,4 +1,9 @@
-# Udemy-Turorial: Shopware Template Training Basics
+# Udemy-Tutorial: Shopware Template Training Basics
+
+In this repository, the Shopware Udemy tutorial __Shopware Template Training Basics__ (url: https://www.udemy.com/shopware-template-training-basic/) is documented. The commits are ordered according to the ordering of topics covered in the tutorial. The README.md contains instructions and the most important issues and tricks discussed in the videos.
+
+Related GiHub Project is https://github.com/pr-olga/tutorial-shopware-template-advanced  __Shopware Template Training Advanced__ (url: https://www.udemy.com/shopware-template-training-advanced/).
+
 ## _Bitnami Installation_
 
 ## Development Environment: PHPStorm
