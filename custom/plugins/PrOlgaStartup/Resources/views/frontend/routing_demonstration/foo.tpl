@@ -6,4 +6,5 @@
 
     <p>Noch ein wenig text!</p>
 
+    {action module='widgets' controller='listing' action='topSeller'}
 {/block}
