@@ -9,6 +9,12 @@
         <tag name="shopware.event_subscriber"/>
 
         </service>
+
+<service class="PrOlgaStartup\Services\ProductNameService" id="pr_olga_startup.services.product_name_service">
+            <argument id="dbal_connection" type="service"/>
+        </service>
+
+
     </services>
 
 </container>

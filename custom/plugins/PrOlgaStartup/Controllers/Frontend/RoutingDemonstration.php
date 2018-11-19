@@ -30,6 +30,12 @@ class Shopware_Controllers_Frontend_RoutingDemonstration extends Enlight_Control
 
 
     public function fooAction() {
+        $productService = $this->get('pr_olga_startup.services.product_name_service');
+        $productNames = $productService->getProductNames();
+
+        $this->view->assign('productNames', $productNames);
+
+
         // link to other action
         $this->view->assign('nextAction', 'index');
     }
