@@ -5,6 +5,19 @@ class Shopware_Controllers_Frontend_RoutingDemonstration extends Enlight_Control
     // register a directory
     public function preDispatch () {
 
+        if( $this->Request()->getActionName() === 'index' &&  !$this->get('session')->get('sUserId')){
+
+        //redirect: either url or array with parameters
+
+        $this->redirect([
+        'controller' => 'account',
+        'action' => 'login',
+        'sTarget' => 'RoutingDemonstration',
+        'sTargetAction' => 'index'
+        ]);
+
+        }
+
         $this->view->addTemplateDir(__DIR__ . '/../../Resources/views');
 
     }
@@ -30,6 +43,8 @@ class Shopware_Controllers_Frontend_RoutingDemonstration extends Enlight_Control
 
         // assign view a variable with a cetain value
         $this->view->assign('currentAction', $currentAction);
+
+        $this->view->assign('uri', $uri);
     }
 
 
