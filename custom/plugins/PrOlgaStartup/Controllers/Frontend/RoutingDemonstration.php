@@ -18,8 +18,6 @@ class Shopware_Controllers_Frontend_RoutingDemonstration extends Enlight_Control
 
         }
 
-        $this->view->addTemplateDir(__DIR__ . '/../../Resources/views');
-
     }
 
 
@@ -43,8 +41,6 @@ class Shopware_Controllers_Frontend_RoutingDemonstration extends Enlight_Control
 
         // assign view a variable with a cetain value
         $this->view->assign('currentAction', $currentAction);
-
-        $this->view->assign('uri', $uri);
     }
 
 
