@@ -1,6 +1,9 @@
-node_modules
-/files/*
-/media/*
-/var/*
-/vendor/*
-/web/*
+/*
+/*/
+/*/*/
+
+!/custom/
+!/custom/plugins/
+
+!/.gitignore
+!/README.md
