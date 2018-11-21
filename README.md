@@ -93,7 +93,7 @@ Event Categories
 - e.g. `Enlight_Controller_Action_PreDispatch_Frontend_Detail` the callback will be executed on each _detail_-page in Frontend
 
 ## Quiz 2: PostDispatch Event Controller
-s
+_This solution does not work in the Shopware 5 environment_
 ```php
 <?php
 
