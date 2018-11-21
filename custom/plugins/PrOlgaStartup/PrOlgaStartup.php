@@ -38,6 +38,6 @@ class PrOlgaStartup extends Plugin
             );
         }
 
-        $context->sheduleClearChache(InstallContext::CACHE_LIST_ALL);
+        $context->sheduleClearCache(InstallContext::CACHE_LIST_ALL);
     }
 }
